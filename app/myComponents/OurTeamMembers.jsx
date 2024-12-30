@@ -9,14 +9,14 @@ const OurTeamMembers=()=>{
             professions:"Web developer",
             
         },  {
-            image:<Image src="/Images/User.png" width={380} height={70}/>,
-            name:"Sundram",
-            professions:"App Developer",
+            image:<Image src="/Images/female.jpg" width={380} height={70}/>,
+            name:"Sumaiya",
+            professions:"UI Design",
             
         },
         {
             image:<Image src="/Images/User.png" width={380} height={70}/>,
-            name:"Sundram",
+            name:"Akshat",
             professions:"Logo Designer",
           
         }

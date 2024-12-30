@@ -5,25 +5,28 @@ import { FaRegCalendarDays } from "react-icons/fa6";
 const Blogs=()=>{
     const ClintDetails =[
         {
-            image:<Image src="/Images/AboutUs.jpg" width={380} height={70}/>,
-            user:"Sundram",
-            date:"22/12/24",
+            image:"/Images/News.png",
+            title:'News',
+            user:"Sunny",
+            date:"01/10/24",
+            heading:"" ,
+            para:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, cupiditate."  
+          
+        },
+        {
+            image:"/Images/technical.png",
+            title:'Technical',
+            user:"Shubham",
+            date:"12/11/24",
             heading:"web development" ,
             para:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, cupiditate."  
           
         },
         {
-            image:<Image src="/Images/AboutUs.jpg" width={380} height={70}/>,
-            user:"Sundram",
-            date:"22/12/24",
-            heading:"web development" ,
-            para:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, cupiditate."  
-          
-        },
-        {
-            image:<Image src="/Images/AboutUs.jpg" width={380} height={70}/>,
-            user:"Sundram",
-            date:"22/12/24",
+            image:"/Images/webFuture.png",
+            title:'Web Future',
+            user:"Anil",
+            date:"02/12/24",
             heading:"web development" ,
             para:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, cupiditate."  
           
@@ -50,7 +53,8 @@ const Blogs=()=>{
                 <>
                 <div className="flex flex-col  h-[480px] bg-blue-400 w-[380px] items-center">
                 
-                    <div className="">{item.image}</div>
+                    <div className=""><img src={item.image} alt="" srcset="" className="h-[300px] bg-cover" /></div>
+
                     <div className="mt-2 p-3 flex  w-full ml-10 gap-5">
                         <div className="flex  items-center gap-1">
                             <p><FaRegUser/></p>
@@ -65,7 +69,7 @@ const Blogs=()=>{
 
                         </div>
                     <div>{item.professions}</div>
-                    <div className="flex absolute justify-start items-start mt-[140px] w-[380px]">Name</div>
+                    <div className="flex absolute justify-start items-start mt-[140px] w-[380px]">{item.title}</div>
 
                 </div>
                 </>

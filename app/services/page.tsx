@@ -17,7 +17,7 @@ const Service = () => {
         { icon: < FaShoppingCart />, name: "E-commerce Solutions", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
         { icon: < GrOptimize />, name: "SEO Optimization", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
         { icon: <HiSupport />, name: "Website Maintenance and Support", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
-        { heading: "", name: "", para: "" },
+    //     { heading: "", name: "", para: "" },
     ]
     return (
         <div className="sm:mt-36 mt-10">
