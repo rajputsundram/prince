@@ -12,17 +12,17 @@ const TopNav=()=>{
     <div className="flex items-center px-10 gap-5  ">
     <div className="flex  items-center">
 <CiLocationOn/>
-<p className="text-sm ">Panipat,Haryana,India</p>
+<p className="text-sm ">8 marla Panipat,Haryana,India</p>
 
 </div>
 <div className="flex items-center ">
 <IoCall />
-<p className="text-sm ">+91 8684961182</p>
+<p className="text-sm ">+91 9306541867</p>
 
 </div>
 <div className="flex items-center ">
 <MdEmail />
-<p className="text-sm ">rajputsundram87@gmail.com</p>
+<p className="text-sm ">buntyprince@gmail.com</p>
 </div>
 </div>
 

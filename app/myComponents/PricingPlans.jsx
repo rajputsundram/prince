@@ -5,43 +5,43 @@ const PricingPlans = () => {
 
     const contents = [
 
-        { heading: "Basic Plan ", p: "For Small Size Business", price: "20k" },
-        { heading: "Standard Plan ", p: "For Medium Size Business", price: "35k" },
-        { heading: "Advanced Plan ", p: "For Large Size Business", price: "50k" }
+        { heading: "Basic Plan ", p: "For 1 Hour", price: "1k" },
+        { heading: "Standard Plan ", p: "For 3 Hour", price: "2k" },
+        { heading: "Advanced Plan ", p: "For Full Night", price: "5k" }
     ]
-    const cards = [
-        
-            {
-              id: 1,
-              item: [
-                { text: 'Custom Website Design'},
-                { text: 'Up to 5 Pages' },
-                { text: 'Responsive Layout'},
-                { text: '1 Month of Free Support'},
-              ],
-            },
-            {
-              id: 2,
-              item: [
-                { text: 'Custom Website Design'},
-                { text: 'Up to 15 Pages'},
-                { text: 'Responsive Layout'},
-                { text: '3 Months of Free Support'},
-                { text: 'Advanced SEO Optimization'},
-              ],
-            },
-            {
-              id: 3,
-              item: [
-                { text: 'Custom Website Design' },
-                { text: 'Unlimited Pages'},
-                { text: 'Responsive Layout'},
-                { text: 'Advanced E-commerce Solutions'},
-                { text: ' Custom Plugins and Features'},
-                { text: '6 Months of Free Support' },
-              ],
-            },
-          ];
+   const cards = [
+  {
+    id: 1,
+    item: [
+      { text: 'Lorem ipsum dolor sit amet' },
+      { text: 'Consectetur adipiscing elit' },
+      { text: 'Sed do eiusmod tempor' },
+      { text: 'Incididunt ut labore' },
+    ],
+  },
+  {
+    id: 2,
+    item: [
+      { text: 'Lorem ipsum dolor sit amet' },
+      { text: 'Consectetur adipiscing elit' },
+      { text: 'Sed do eiusmod tempor' },
+      { text: 'Incididunt ut labore' },
+      { text: 'Et dolore magna aliqua' },
+    ],
+  },
+  {
+    id: 3,
+    item: [
+      { text: 'Lorem ipsum dolor sit amet' },
+      { text: 'Consectetur adipiscing elit' },
+      { text: 'Sed do eiusmod tempor' },
+      { text: 'Ut enim ad minim veniam' },
+      { text: 'Quis nostrud exercitation ullamco' },
+      { text: 'Laboris nisi ut aliquip ex ea' },
+    ],
+  },
+];
+
 
     return (
         <div className="h-full sm:16 mt-24 ">
@@ -81,7 +81,7 @@ const PricingPlans = () => {
                                       
 
                                     <div className="ml-12 mt-9">
-                                        <button className="w-36 bg-blue-500 text-white h-12">Order Now</button>
+                                        <button className="w-36 bg-blue-500 text-white h-12">Book Now</button>
                                     </div>
 
                                 </div>

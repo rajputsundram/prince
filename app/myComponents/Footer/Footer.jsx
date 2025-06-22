@@ -30,8 +30,8 @@ const Footer=()=>{
     <div className="mt-20 w-full flex sm:flex-row flex-col bg-black h-full sm:mt-5 ">
 
         <div className="flex justify-center items-center p-3 flex-col h-[500px] bg-blue-500 ml-1 sm:ml-40 w-full sm:w-[30%]">
-            <div className="font-bold text-white text-3xl ">SOLOUP</div>
-                <span className="text-lg text-white">At Soloup, we specialize in creating innovative and user-friendly websites. Our passionate team delivers customized web solutions to help businesses thrive online. Experience modern design and exceptional service with us</span>
+            <div className="font-bold text-white text-3xl ">Dhandewala</div>
+                <span className="text-lg text-white">At Dhandewala, we specialize in providing professional massage and relaxation services tailored to your needs. Our skilled and friendly team is dedicated to creating a comfortable, judgment-free experience where you can unwind and feel your best. Discover soothing touch and personalized care with Dhandewala.</span>
     
           <div className="h-[80px] flex items-center w-[70%]"> 
             <input type="email" placeholder=' Your Email' className="h-[50px] w-[80%] pl-2 outline-none"/>
@@ -45,10 +45,10 @@ const Footer=()=>{
             <div className="flex h-[25px]  items-center justify-start font-[18px] mt-5 "><span className="text-blue-400"><CiLocationOn /></span><p className='text-white ml-2'>Panipat,Haryana</p></div>
             <div className="flex h-[25px] items-center justify-start mt-[5px] text-[18px] font-medium "><span className="text-blue-400"><MdOutlineEmail />
             </span><p className='text-white ml-2' >
-            rajputsundram87@gmail.com</p></div>
+            buntyprince@gmail.com</p></div>
 
             <div className="h-[25px] mt-2 font-medium items-center justify-start flex"><span className="text-blue-300"><IoCall /></span><p className='ml-2 text-white'>
-            +91 8684961182</p></div>
+            +91 9306541867</p></div>
             <div className=' h-[80px] mt-[30px] flex gap-2 '>
                 {
                 icons.map((item,index)=>{
@@ -118,7 +118,7 @@ const Footer=()=>{
 
     </div>
     <div className="h-[100px] flex justify-center items-center w-full bg-black text-white ">
-    <p>	&#169; soloup. All Rights Reserved. Designed By Sundram Rajput</p>
+    <p>	&#169; soloup. All Rights Reserved.</p>
 
 </div>
     </>)

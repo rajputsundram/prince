@@ -23,7 +23,7 @@ const RequestAQuotes=()=>{
                     </div>
 
                 </div>
-                <p className="sm:ml-24  ml-7  mt-12 font-sans font-lg text-gray-600"> Our team is dedicated to delivering top-notch web solutions. With expertise in web development, design, and SEO, we ensure your online presence stands out. We tailor our services to meet your unique business needs, providing reliable and innovative solutions. Trust us to bring your vision to life with our commitment to quality and excellence.</p>
+            
                 <div className="sm:ml-20 ml-7  font-bold text-xl">
                   
 
@@ -34,7 +34,7 @@ const RequestAQuotes=()=>{
                <div className="h-14 w-14  flex justify-center items-center text-white bg-blue-600 "><IoCall /></div> 
                 <div className="flex flex-col text-xl font-bold gap-2 ml-6 ">
                     <p >Call to ask any question</p>
-                    <p>+91 8684961182</p>
+                    <p>+91 8818028326</p>
                 </div>
             </div>
           

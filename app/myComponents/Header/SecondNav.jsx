@@ -21,8 +21,8 @@ const SecondNav=({containerStyle,linksStyle})=>{
 <div className="flex  justify-between items-center h-24 ">
     {/* logo section */}
     <div className=" font-bold flex justify-center items-center ml-9">
-        <span className="text-5xl font-mono text-blue-600 font-bold ">Soloup</span>
-        <span><Image src={"/Images/logo.png"} className="" width={50} height={100} alt="img" ></Image></span>
+        <span className="text-5xl font-mono text-blue-600 font-bold ">DhandeWala</span>
+        {/* <span><Image src={"/Images/logo.png"} className="" width={50} height={100} alt="img" ></Image></span> */}
     </div>
 
 

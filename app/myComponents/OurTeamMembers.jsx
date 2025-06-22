@@ -1,63 +1,57 @@
 'use client'
 import Image from "next/image"
-const OurTeamMembers=()=>{
 
-    const ClintDetails =[
-        {
-            image:<Image src="/Images/User.png" width={380} height={70}/>,
-            name:"Sundram",
-            professions:"Web developer",
-            
-        },  {
-            image:<Image src="/Images/female.jpg" width={380} height={70}/>,
-            name:"Sumaiya",
-            professions:"UI Design",
-            
-        },
-        {
-            image:<Image src="/Images/User.png" width={380} height={70}/>,
-            name:"Akshat",
-            professions:"Logo Designer",
-          
-        }
-    ]
-    return(
+const OurTeamMembers = () => {
+  const ClintDetails = [
+    {
+      image: "/Images/prince.jpg",
+      name: "Prince",
+      professions: "All rounder",
+    },
+    {
+      image: "/Images/anil.jpg",
+      name: "Anil",
+      professions: "Night Expert",
+    },
+    {
+      image: "/Images/aakash.jpg",
+      name: "Aakash",
+      professions: "Nice Hand-Job",
+    },
+  ]
 
+  return (
+    <div className="sm:mt-16 h-full my-4 mt-12">
+      {/* Heading */}
+      <div className="flex flex-col justify-center mb-12 items-center">
+        <h2 className="font-bold sm:my-6 text-3xl text-blue-600">Team Members</h2>
+        <h1 className="sm:text-5xl text-3xl flex text-center w-full sm:w-1/2 font-bold">
+          Professional Stuffs Ready to Help You.
+        </h1>
+      </div>
 
-        <div className=" sm:mt-16 h-full my-4 mt-12 ">
-              {/* Heading */}
-              <div className="flex flex-col  justify-center mb-12 items-center">
-                <h2 className="font-bold sm:my-6 text-3xl text-blue-600">Team Members</h2>
-                <h1 className="sm:text-5xl text-3xl  flex text-center w-[100%] sm:w-[50%] font-bold">Professional Stuffs Ready to Help Your Business
-                </h1>
+      {/* Cards */}
+      <div className="flex sm:flex-row flex-col justify-center items-center gap-10">
+        {ClintDetails.map((item, index) => (
+          <div
+            className="flex flex-col h-[480px] bg-blue-400 w-[380px] items-center rounded-lg overflow-hidden"
+            key={index}
+          >
+            <div className="w-full h-[300px] relative">
+              <Image
+                src={item.image}
+                alt={item.name}
+                fill
+                className="object-cover"
+              />
             </div>
-
-
-  
-
-    <div className="flex  sm:flex-row flex-col justify-center items-center gap-10">
-        {
- 
-         ClintDetails.map((item ,index)=>{
-            return(
-
-                <>
-                <div className="flex flex-col  h-[480px] bg-blue-400 w-[380px] items-center" key={index}>
-                
-                    <div className="">{item.image}</div>
-                    <div className="mt-2 p-3">{item.name}</div>
-                    <div>{item.professions}</div>
-
-                </div>
-                </>
-            )
-
-         })   
-        }
+            <div className="mt-4 p-3 text-xl font-semibold">{item.name}</div>
+            <div className="text-white text-lg">{item.professions}</div>
+          </div>
+        ))}
+      </div>
     </div>
-
-
-        </div>
-    )
+  )
 }
+
 export default OurTeamMembers;

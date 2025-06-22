@@ -26,7 +26,7 @@ const CompleteNav=()=>{
 
    
 <div className="pt-4 pb-4 lg:hidden">
-<div className='text-center flex justify-center font-bold text-4xl'><Link href="/"><h1 >Soloup</h1></Link><Hembar onClick={toggleNav}/></div>
+<div className='text-center flex justify-center font-bold text-4xl'><Link href="/"><h1 >Dhandewala </h1></Link><Hembar onClick={toggleNav}/></div>
    
 {isNavVisible&&<MobileNav/>}
     

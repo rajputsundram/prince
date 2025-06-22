@@ -8,8 +8,7 @@ import PricingPlans from "./myComponents/PricingPlans"
 import RequestAQuote from "./myComponents/RequestAQuotes"
 import OurClient from "./myComponents/OurClients"
 import OurTeamMembers from "./myComponents/OurTeamMembers";
-import Blogs from "./blog/page"
-import Footer from "./myComponents/Footer/Footer"
+
 
 
 import AboutUs from "./about/page";
@@ -31,7 +30,7 @@ export default function Home() {
 <RequestAQuote/>
 {/* <OurClient/> */}
 <OurTeamMembers/>
-<Blogs/>
+
 
 
 

@@ -12,19 +12,17 @@ import { GrOptimize } from "react-icons/gr";
 import { HiSupport } from "react-icons/hi";
 const Service = () => {
     const content = [
-        { icon: <AiOutlineAntDesign />, name: "Custom Website Design", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
-        { icon: <DiResponsive />, name: "Responsive Web Development", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
-        { icon: < FaShoppingCart />, name: "E-commerce Solutions", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
-        { icon: < GrOptimize />, name: "SEO Optimization", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
-        { icon: <HiSupport />, name: "Website Maintenance and Support", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
-    //     { heading: "", name: "", para: "" },
+        { icon: <AiOutlineAntDesign />, name: "Full Night Services", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
+        { icon: <DiResponsive />, name: "With More Privacy", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
+        { icon: < FaShoppingCart />, name: "Everything You Want ", para: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed" },
+      
     ]
     return (
         <div className="sm:mt-36 mt-10">
             {/* Heading */}
             <div className="flex flex-col  justify-center items-center">
                 <h2 className="font-bold sm:my-9 text-3xl text-blue-600">Our Services</h2>
-                <h1 className="sm:text-6xl text-3xl  flex text-center w-[100%] sm:w-[50%] font-bold">Custom Web Solutions for Your Successful Business
+                <h1 className="sm:text-6xl text-3xl  flex text-center w-[100%] sm:w-[50%] font-bold">Custom Home Services for Your Loneliness.
                 </h1>
             </div>
             {/* contentes */}

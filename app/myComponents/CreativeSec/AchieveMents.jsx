@@ -8,15 +8,15 @@ const achieve=()=>{
     const stats=[
         {  
             icons:<FaUsers/>,
-            num:10,
+            num:1000,
             text:"Happy Clients"},
             {  
                 icons:<TiTick/>,
-                num:10,
-                text:"Projects Done"},
+                num:10000,
+                text:"Services Done"},
                 {  
                     icons:<FaAward/>,
-                    num:1,
+                    num:10,
                     text:"Award"},
     ]
     return(
