@@ -9,7 +9,7 @@ import { GiSkills } from "react-icons/gi";
 
 const ChooseUs = () => {
     return (
-        <div className="sm:mt-[12rem] h-auto px-4 sm:px-0">
+        <div className="sm:mt-[12rem] h-auto px-4  sm:px-2">
             {/* Heading sec */}
             <div className="flex flex-col justify-center items-center">
                 <h2 className="font-bold sm:my-8 text-2xl text-blue-600">WHY CHOOSE US</h2>
