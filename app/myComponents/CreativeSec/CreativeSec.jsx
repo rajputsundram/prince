@@ -1,42 +1,31 @@
 'use client'
 import Link from "next/link";
-import AchieveMents from "./AchieveMents";
+import AchieveMents from "./AchieveMents"
+const CraetiveSec=()=>{
 
-const CraetiveSec = () => {
-  return (
-    <div className="relative bg-[url('/Images/tel.png')] bg-cover bg-center w-full min-h-[600px] sm:min-h-screen">
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-white px-4 py-12 text-center z-10">
-        <div className="max-w-4xl space-y-4">
-          <h2 className="text-2xl sm:text-3xl font-semibold">Best Services</h2>
-          <h1 className="text-4xl sm:text-6xl font-bold leading-tight">Very Relaxing</h1>
-          <h1 className="text-4xl sm:text-6xl font-bold leading-tight">Night Services</h1>
+    return(
+        <div className="  relative bg-[url('/Images/tel.png')] sm:h-screen h-[400px] sm:px-0 px-3  bg-cover bg-center w-full   md:mx-auto md:w-full">
+        <div className="absolute inset-0 bg-black/50   text-white text-center w-full  pt-20">
+          <div className="relative z-10 opacity-100  pt-20">
+            <h1 className=" text-2xl font-bold">Best Services</h1>
+            <h1 className="text-white  text-4xl  font-bold text-center pt-1  sm:text-7xl">Very Relaxing </h1>
+            <h1 className="text-white text-4xl font-bold text-center pt-1 sm:text-7xl ">Night Services</h1>
+            {/* buttons */}
+            <div className=" text-center flex  items-center justify-center">
+                <Link href={""} className="    bg-blue-700 text-white h-12 flex justify-center items-center w-32 m-6 sm:m-8 ">Free Quote</Link>
+                <Link href={""} className=" text-white   outline outline-white  bg-transparent  h-12 flex justify-center items-center w-32  hover:bg-white hover:text-blue-700  ease-in duration-300">Contact us</Link>
+            </div>
 
-          {/* Buttons */}
-          <div className="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4">
-            <Link
-              href="#"
-              className="bg-blue-700 hover:bg-blue-800 text-white font-medium px-6 py-3 rounded-md transition duration-300 w-40 text-center"
-            >
-              Free Quote
-            </Link>
-            <Link
-              href="#"
-              className="text-white border border-white px-6 py-3 rounded-md hover:bg-white hover:text-blue-700 transition duration-300 w-40 text-center"
-            >
-              Contact Us
-            </Link>
           </div>
         </div>
+
+        <AchieveMents></AchieveMents>
+        
+        
+       
       </div>
+      
+    )
 
-      {/* Optional: A semi-transparent layer under text for clarity on bright images */}
-      <div className="absolute inset-0 bg-black/30"></div>
-
-      {/* Achievements component */}
-      <AchieveMents />
-    </div>
-  );
-};
-
+}
 export default CraetiveSec;
